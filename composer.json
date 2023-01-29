@@ -1,0 +1,32 @@
+{
+    "name": "mexx/craft4-element-api-cache-buster",
+    "description": "Cache buster for element api in craft 4",
+    "type": "craft-plugin",
+    "license": "mit",
+    "require": {
+        "php": ">=8.0.2",
+        "craftcms/cms": "^4.3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "mexx\\craft4elementapicachebuster\\": "src/"
+        }
+    },
+    "extra": {
+        "handle": "craft4-element-api-cache-buster",
+        "name": "craft4-element-api-cache-buster",
+        "developer": "Martin Lüpold",
+        "documentationUrl": ""
+    },
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "8.0.2"
+        },
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
+    }
+}
+
